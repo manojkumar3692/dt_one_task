@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Run Application using docker 
 
-step 1 : docker build -t sample:dev .
-step 2 : 
+* step 1 : docker build -t sample:dev .
+* step 2 : 
 docker run \
     -it \
     --rm \
@@ -15,13 +15,13 @@ docker run \
     -e CHOKIDAR_USEPOLLING=true \
     sample:dev
 
-step 3 : open localhost:30001
+* step 3 : open localhost:30001
 
 ### `Run Application locally`
 
-step 1 : ensure you are using node 16 version
-step 2 : yarn 
-step 3 : yarn start
+* step 1 : ensure you are using node 16 version
+* step 2 : yarn 
+* step 3 : yarn start
 
 ### `third party plugin used`
 * http-proxy-middleware for resolving cors
